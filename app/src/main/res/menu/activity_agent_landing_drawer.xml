@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stock_management"
+            android:icon="@drawable/ic_baseline_assignment_24px"
+            android:title="Stock Management" />
+        <item
+            android:id="@+id/nav_sell_products"
+            android:icon="@drawable/ic_baseline_attach_money_24px"
+            android:title="Sell Products" />
+        <item
+            android:id="@+id/nav_my_stats"
+            android:icon="@drawable/ic_baseline_stars_24px"
+            android:title="My Stats" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_baseline_account_circle_24px"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_settings_client"
+                android:icon="@drawable/ic_baseline_settings_20px"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/nav_help_client"
+                android:icon="@drawable/ic_baseline_help_outline_24px"
+                android:title="Help"/>
+
+            <item
+                android:id="@+id/nav_logout_client"
+                android:icon="@drawable/ic_baseline_lock_24px"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>

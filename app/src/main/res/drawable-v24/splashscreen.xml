@@ -1,0 +1,20 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <!-- The background color, preferably the same as your normal theme -->
+    <item android:drawable="@android:color/white"/>
+    <!-- Your product logo - 144dp color version of your app icon -->
+    <item>
+        <bitmap
+            android:src="@drawable/hlcb_logo"
+            android:gravity="center"/>
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:id="@+id/logoText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="120dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="48dp"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="@string/app_name"/>-->
+    </item>
+</layer-list>
